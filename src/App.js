@@ -21,8 +21,8 @@ import FocusInput from './components/refsDemo/FocusInput';
 import FRrefsParent from './components/refsDemo/forwardingRefs/FRrefsParent';
 import PortalDemo from './components/Portals/PortalDemo';
 import Main from './components/errorBoundary/Main';
-import ClickCounter from './components/higherOrderComp/ClickCounter';
-import HoverCounter from './components/higherOrderComp/HoverCounter';
+import ClickCounter from './components/higherOrderComp/higherOrderComp1/ClickCounter';
+import HoverCounter from './components/higherOrderComp/higherOrderComp1/HoverCounter';
 import ClickCounterTwo from './components/renderProps/ClickCounterTwo';
 import HoverCounterTwo from './components/renderProps/HoverCounterTwo';
 import User from './components/renderProps/User';
@@ -67,8 +67,8 @@ function App() {
 
 
       {/* higher order comp */}
-      {/* <ClickCounter name='dhilip'/> passing parameter type
-      <HoverCounter/> */}
+      <ClickCounter name={"dhilip"}/>
+      <HoverCounter name={"kumar"}/>
 
       {/* error boundary */}
       {/* <Main/> */}
@@ -133,7 +133,7 @@ function App() {
       </Classcomponent>
       <Hello /> */}
 
-      <UseMemoWords/>
+      {/* <UseMemoWords/> */}
       {/* <UseMemoCounter/> */}
     </div>
   );

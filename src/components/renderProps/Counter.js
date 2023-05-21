@@ -11,7 +11,7 @@ class Counter extends Component {
     }
     
 
-    incrementCount = () =>{
+    incrementCount = () => {
         this.setState((preVal) => {
             return { count : preVal.count+1 }
         })

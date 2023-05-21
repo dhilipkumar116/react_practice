@@ -36,7 +36,7 @@ class ParentComponent extends Component {
     render() {
         return (
             <div>
-                <ChildComponent greetHandler ={this.greetparent}/>
+                <ChildComponent greetHandler = {this.greetparent}/>
             </div>
         )
     }

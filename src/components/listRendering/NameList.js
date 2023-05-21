@@ -31,7 +31,7 @@ function NameList() {
   return <div>{personList}</div>;
 
   // //using idex as key
-  // const NameList = name.map((names,index)=> <h2 key={index}>{index} {names}</h2>)
+  // const NameList = name.map((names,index) => <h2 key={index}>{index} {names}</h2>)
   // return <div>{NameList}</div>;
 }
 
